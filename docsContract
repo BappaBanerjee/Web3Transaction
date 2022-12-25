@@ -1,0 +1,8 @@
+**install_all_the_dependencies**
+
+**npx hardhat run --network localhost scripts/deploy.js**
+npm install --save-dev hardhat
+
+npm install --save-dev @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' @nomiclabs/hardhat-ethers 'ethers@^5.0.0' chai
+
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle @nomiclabs/hardhat-ethers ethers

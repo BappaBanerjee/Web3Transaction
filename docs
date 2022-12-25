@@ -1,0 +1,38 @@
+we have craeted two folder 
+Tanzo for frontend and contract for the blockchain part......
+
+***********************
+Tanzo Folder.....
+***********************
+
+**command to install the react js using vite, we are using vite cause it is fast for development......
+npm create vite@latest
+npm i //to install the dependencies
+
+**we will use tailwind css for our frontend...**
+npm install -D tailwindcss
+npx tailwindcss init // this command will create a tailwind config file
+
+**configure the tailwind file**
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+**paste the code in index.css**
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+**start the tailwind CLI build process**
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+**Add the output file css to the App.jsx file**
+
+
+
+
