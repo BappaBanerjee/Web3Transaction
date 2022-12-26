@@ -17,6 +17,7 @@ const TranzoForm = () => {
     }
 
     return (
+
         <div className='tranzo-contents'>
             <div className="tranzo-texts">
                 <div className="tranzo-heading">
@@ -71,6 +72,7 @@ const TranzoForm = () => {
                 </form>
             </div>
         </div>
+
     );
 };
 

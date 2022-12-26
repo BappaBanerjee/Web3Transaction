@@ -5,15 +5,16 @@
 
 .tranzo-contents {
     /* border: 1px solid red; */
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .tranzo-contents>.tranzo-texts {
     /* border: 1px solid green; */
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 50%;
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@
 
 .tranzo-contents>.tranzo-form {
     /* border: 1px solid green; */
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 50%;
     display: flex;
     flex-direction: column;
